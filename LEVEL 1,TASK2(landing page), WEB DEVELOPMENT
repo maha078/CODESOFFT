@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        /* Main Section */
+        .main-section {
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: calc(33% - 40px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .column h2 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .column {
+                width: calc(50% - 40px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .column {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to My Web Development Journey</h1>
+            <p>Explore the Basics of HTML and CSS</p>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h2>Introduction to HTML</h2>
+                    <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It describes the structure of a webpage and consists of a series of elements that tell the browser how to display the content.</p>
+                </div>
+                <div class="column">
+                    <h2>Understanding CSS</h2>
+                    <p>CSS (Cascading Style Sheets) is used to control the presentation of a webpage, including layout, colors, fonts, and other visual aspects. It allows you to create visually appealing and responsive web designs.</p>
+                </div>
+                <div class="column">
+                    <h2>Responsive Web Design</h2>
+                    <p>Responsive design ensures that web pages look good on all devices, from desktops to smartphones. Using media queries in CSS, you can create layouts that adapt to different screen sizes and orientations.</p>
+                </div>
+                <div class="column">
+                    <h2>Flexbox and Grid</h2>
+                    <p>Flexbox and CSS Grid are powerful layout systems in CSS. Flexbox is ideal for arranging items in a single direction, either row or column, while CSS Grid provides a two-dimensional layout system for more complex designs.</p>
+                </div>
+                <div class="column">
+                    <h2>JavaScript Basics</h2>
+                    <p>JavaScript is a versatile programming language that allows you to add interactivity to your web pages. From simple form validation to dynamic content updates, JavaScript enhances the user experience on the web.</p>
+                </div>
+                <div class="column">
+                    <h2>Best Practices</h2>
+                    <p>Following best practices in web development, such as writing clean and semantic HTML, using external CSS files, and ensuring accessibility, helps create websites that are maintainable, performant, and user-friendly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
