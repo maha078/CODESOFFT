@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        /* About Section */
+        #about {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Skills Section */
+        #skills {
+            background: #f4f4f4;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills li {
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+            background: #ddd;
+            border-radius: 5px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .project {
+            margin: 20px 0;
+        }
+
+        .project img {
+            width: 500px;
+            height: 250px;
+            border-radius: 5px;
+        }
+
+        /* Resume Section */
+        #resume {
+            background: #f4f4f4;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Mahanoor Zafar</h1>
+            <p>WEB DEVELOPER</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer. I specialize in HTML, CSS, JavaScript, and various modern frameworks like Java ,C++. My goal is to build user-friendly, accessible, and aesthetically pleasing web applications that provide an excellent user experience.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>JSON</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>GYM PERSTIGUE APP</h3>
+                <img src="p1.jpg" alt="Project 1">
+                <p>I This project focuses on developing an interactive e-commerce web application for 'GYM PRESTIGUE,' a brand specializing in gym clothing. The platform is designed to enhance the online shopping experience by offering a variety of shop items, a dynamic shopping cart, an informative about us page, a blog section, and a sign-in feature for user account management.</p>
+            </div>
+          
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="CV Maha-Noor-Zafar.pdf" download>Download My Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Mahanoorzafar42@gmail.com">Mahanoorzafar42@gmail.com</a></p>
+            <p></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            
+        </div>
+    </footer>
+</body>
+</html>
+
